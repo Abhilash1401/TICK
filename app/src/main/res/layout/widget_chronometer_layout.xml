@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chronometer_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/widget_chronometer_bg"
+    android:paddingStart="14dp"
+    android:paddingEnd="14dp"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+
+    <Chronometer
+        android:id="@+id/live_chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:countDown="true" />
+
+    <TextView
+        android:id="@+id/live_chronometer_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HRS : MINS : SECS"
+        android:textColor="#CCFFFFFF"
+        android:textSize="9sp"
+        android:textStyle="bold" />
+</LinearLayout>
